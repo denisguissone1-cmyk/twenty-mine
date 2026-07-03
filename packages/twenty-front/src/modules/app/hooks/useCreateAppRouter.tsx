@@ -150,6 +150,12 @@ const StandalonePageLayoutPage = lazy(() =>
   })),
 );
 
+const MetasPage = lazy(() =>
+  import('~/pages/metas/MetasPage').then((module) => ({
+    default: module.MetasPage,
+  })),
+);
+
 const NotFound = lazy(() =>
   import('~/pages/not-found/NotFound').then((module) => ({
     default: module.NotFound,
@@ -293,6 +299,14 @@ export const useCreateAppRouter = (
               element={
                 <LazyRoute>
                   <StandalonePageLayoutPage />
+                </LazyRoute>
+              }
+            />
+            <Route
+              path={AppPath.Metas}
+              element={
+                <LazyRoute>
+                  <MetasPage />
                 </LazyRoute>
               }
             />

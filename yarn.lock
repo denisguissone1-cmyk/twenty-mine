@@ -35723,6 +35723,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"html-to-image@npm:^1.11.13":
+  version: 1.11.13
+  resolution: "html-to-image@npm:1.11.13"
+  checksum: 10c0/03bd7192d87b99499e37ff12a8e2b41ddce4cf8e33a93dfadff18df0f213434c7f1ba8328db2158f4805da07b7aec3c90aec3152908281153217e86784218b10
+  languageName: node
+  linkType: hard
+
 "html-to-text@npm:^9.0.5":
   version: 9.0.5
   resolution: "html-to-text@npm:9.0.5"
@@ -52905,6 +52912,7 @@ __metadata:
     graphql: "npm:16.8.1"
     graphql-sse: "npm:^2.5.4"
     graphql-tag: "npm:^2.12.6"
+    html-to-image: "npm:^1.11.13"
     idb-keyval: "npm:^6.2.5"
     immer: "npm:^10.1.1"
     input-otp: "npm:^1.4.2"
